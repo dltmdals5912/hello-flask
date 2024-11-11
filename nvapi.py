@@ -12,7 +12,7 @@ def blog(keyword):
     client_secret = "네이버개발자센터에서 발급받은 키"
     encText = urllib.parse.quote(keyword)
     url = "https://openapi.naver.com/v1/search/blog?query=" + encText # JSON 결과
-    # url = "https://openapi.naver.com/v1/search/blog.xml?query=" + encText # XML 결과
+    # url = "https://openapi.naver.com/v1/search/blog.xml?query=" + encText # XML 결과dddd
     request = urllib.request.Request(url)
     request.add_header("X-Naver-Client-Id",client_id)
     request.add_header("X-Naver-Client-Secret",client_secret)

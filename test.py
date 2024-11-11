@@ -13,4 +13,4 @@ def hello(msg):
 # 입력 받은 값은 keyword에 저장
 # 입력 받은 데이터를 hello 함수에 입력값으로 넣기
 # result = hello(keyword) # 위 함수에서 전달된 값을 result 에 전달
-# print(result) # 전달된 값을 화면에 출력
+# print(result) # 전달된 값을 화면에 출력ddd
